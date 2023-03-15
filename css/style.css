@@ -2,7 +2,8 @@
   padding-top: 100px;
   padding-bottom: 20px;
   margin-bottom: 0px;
-  background-color: #b2ffff;
+  background-color: #005f69;
+  color: #ccbca4;
   justify-content: center;
 }
 
@@ -19,7 +20,7 @@ header {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: darkcyan;
+  background-color: darkslategray;
   color: blanchedalmond;
   text-align: center;
   justify-content: center;
@@ -36,7 +37,7 @@ footer {
 
 body {
   margin: 0;
-  background-color: darkslategray;
+  background-color: darkcyan;
 }
 
 main {
@@ -63,7 +64,7 @@ nav {
   top: 0;
   margin: 0;
   padding: 0;
-  background-color: darkcyan;
+  background-color: darkslategray;
 }
 
 .list-item {
