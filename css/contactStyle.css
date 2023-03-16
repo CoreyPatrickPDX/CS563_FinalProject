@@ -1,0 +1,88 @@
+/* Form code */
+.contact {
+  text-align: center;
+}
+
+.form {
+  width: 340px;
+  margin: 0 auto;
+  padding: 5px 10px 10px 10px;
+  border-radius: 10px;
+  font-size: 100%;
+  background-color: powderblue;
+  color: black;
+}
+
+.formName {
+  text-align: center;
+}
+
+.form-element {
+  margin: 30px auto;
+}
+
+h1 {
+  font-size: xx-large;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.user-input {
+  width: 220px;
+  padding: 2px;
+  outline: none;
+}
+
+.title {
+  float: left;
+  width: 90px;
+  clear: left;
+  font-weight: bold;
+}
+
+.message {
+  width: 220px;
+  height: 80px;
+  padding: 2px;
+}
+
+.form-element span {
+  font-weight: bold;
+}
+
+.buttons {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.btn {
+  width: 50%;
+  height: 30px;
+  border-radius: 3px;
+  border: 1px solid var(--green);
+}
+
+.btn-primary {
+  margin-right: 5px;
+  color: azure;
+  background-color: cadetblue;
+}
+
+.btn-primary:hover {
+  color: var(--black);
+  background-color: dimgray;
+  border: 1px solid black;
+}
+
+.btn-secondary {
+  margin-left: 0;
+  color: azure;
+  background-color: darkslategray;
+}
+
+.btn-secondary:hover {
+  color: black;
+  background-color: darkgray;
+  border: 1px solid black;
+}

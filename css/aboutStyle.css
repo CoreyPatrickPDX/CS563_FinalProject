@@ -1,0 +1,40 @@
+.heading {
+  grid-area: heading;
+  height: 75%;
+}
+
+.headshot {
+  width: 75%;
+  grid-area: image;
+  border-radius: 35%;
+  margin: 0 auto;
+}
+
+.aboutText {
+  grid-area: paragraph;
+  font-size: large;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 415px) {
+  .aboutText {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    grid-area: paragraph;
+    margin: 0px 0px;
+  }
+  .about {
+    display: grid;
+    text-align: left;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    grid-template-areas:
+      'heading    heading       heading'
+      'image      paragraph     .';
+  }
+}

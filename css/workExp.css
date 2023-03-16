@@ -1,0 +1,38 @@
+.expHeader {
+  text-align: left;
+}
+
+.section {
+  margin-left: 50px;
+}
+
+.noStyle {
+  list-style-type: none;
+}
+
+.schoolItem {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.listText {
+  margin: 0px;
+}
+
+.list {
+  text-align: left;
+  font-size: 14px;
+}
+
+@media (min-width: 415px) {
+  .workExp {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .listHolder {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+}
